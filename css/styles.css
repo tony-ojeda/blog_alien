@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0 150px;
 }
 
 h1,
@@ -47,6 +48,9 @@ footer {
     font-size: 0.8rem;
 }
 
+
+/* -------- header ------------ */
+
 header {
     display: flex;
     width: 100%;
@@ -66,4 +70,69 @@ header {
 .rightheader p {
     margin: 0;
     font-size: .8rem;
+}
+
+
+/* ---------- navigation ------ */
+
+nav {
+    border-top: 1px solid #A51F10;
+    border-bottom: 1px solid #A51F10;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+
+/* ------------ Articles ----------- */
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    margin: 30px 0;
+}
+
+article img {
+    float: left;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+
+/* ------------ Footer -------------- */
+
+hr {
+    color: #A51F10;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 0
+}
+
+footer ul li {
+    margin: 0 3px;
 }
