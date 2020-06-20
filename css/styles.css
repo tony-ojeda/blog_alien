@@ -46,3 +46,24 @@ footer {
     text-align: center;
     font-size: 0.8rem;
 }
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightheader {
+    margin-left: 10px;
+}
+
+.rightheader h1 {
+    color: #DA0090;
+    margin: 0;
+}
+
+.rightheader p {
+    margin: 0;
+    font-size: .8rem;
+}
